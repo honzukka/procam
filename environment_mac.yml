@@ -1,0 +1,18 @@
+name: thesis
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - h5py==2.10.0
+  - py-openimageio==2.2.11
+  - pip==21.0.1
+  - pip:
+    - ffmpeg-python==0.2.0
+    - matplotlib==3.3.4
+    - numpy==1.18.1
+    - psutil==5.8.0
+    - pytest==6.2.2
+    - scipy==1.4.1
+    - torch==1.5.0
+    - torchvision==0.6.0

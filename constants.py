@@ -1,0 +1,10 @@
+MATRIX_DATASET_NAME = 'matrix'
+METADATA_DATASET_NAME = 'metadata'
+EXTRA_ILLUM_DATASET_NAME = 'extra'
+MATRIX_FILENAME = 'matrix.hdf5'
+SUBMATRIX_PATTERN = 'matrix-[0-9]+.hdf5'
+EXTRA_ILLUM_FILENAME = 'scene_extra_illum.npy'
+CROP_FILENAME = 'crop.txt'
+LOSS_LAYERS = ['relu1_1', 'pool1', 'pool2', 'pool3', 'pool4']
+DEFAULT_IMAGE_MEAN_RGB = [0.48501961,  0.45795686, 0.40760392]
+EPSILON = 1e-07
