@@ -2,8 +2,11 @@
 env/
 output/
 *.png
+!data/*.png
 *.jpg
+!data/*.jpg
 *.jpeg
+!data/*.jpeg
 *.out
 .ipynb_checkpoints/
 .vscode/
