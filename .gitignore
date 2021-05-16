@@ -1,6 +1,7 @@
 .DS_Store
 env/
 output/
+tmp/
 *.png
 !data/*.png
 *.jpg
@@ -8,6 +9,7 @@ output/
 *.jpeg
 !data/*.jpeg
 *.out
+*.npy
 .ipynb_checkpoints/
 .vscode/
 
