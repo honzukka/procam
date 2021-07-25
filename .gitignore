@@ -6,6 +6,7 @@ tmp/
 !data/*.png
 *.jpg
 !data/*.jpg
+!readme_images/*.jpg
 *.jpeg
 !data/*.jpeg
 *.out
